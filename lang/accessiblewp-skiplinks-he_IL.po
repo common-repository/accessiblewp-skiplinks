@@ -1,0 +1,330 @@
+# Copyright (C) 2022 Codenroll
+# This file is distributed under the GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html.
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessibleWP - Skiplinks 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/accessiblewp-"
+"skiplinks\n"
+"POT-Creation-Date: 2022-09-10 14:07+0300\n"
+"PO-Revision-Date: 2022-09-10 14:26+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
+"2 : 3);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Domain: acwp\n"
+
+#. Plugin Name of the plugin
+msgid "AccessibleWP - Skiplinks"
+msgstr "‫AccessibleWP - קישורי דילוג"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/accessiblewp-skiplinks/"
+msgstr "‫https://wordpress.org/plugins/accessiblewp-skiplinks/"
+
+#. Description of the plugin
+msgid ""
+"Adds an accessible way to skip to page sections, as required by WCAG 2.0 for "
+"all levels."
+msgstr ""
+"מוסיף דרך נגישה לדלג בין המקטעים באתר שלך, כפי שנדרש על ידי WCAG 2.0 עבור כל "
+"הרמות."
+
+#. Author of the plugin
+msgid "Codenroll"
+msgstr "קוד אנד רול"
+
+#. Author URI of the plugin
+msgid "https://www.codenroll.co.il/"
+msgstr "‫https://www.codenroll.co.il/"
+
+#: accessiblewp-skiplinks.php:96 accessiblewp-skiplinks.php:97
+#: accessiblewp-skiplinks.php:101 accessiblewp-skiplinks.php:104
+msgid "Navigate to"
+msgstr "נווט/י אל"
+
+#: inc/meta.php:12
+msgid "Skiplinks"
+msgstr "קישורי דילוג"
+
+#: inc/meta.php:58
+msgid ""
+"The skiplinks allow the user to skip between page sections. In order to "
+"define unique skiplinks to this specific page, you need to set the ID of the "
+"section and a label."
+msgstr ""
+"קישורי הדילוג מאפשרים למשתמש לדלג בין מקטעי העמוד. על מנת להגדיר קישורי "
+"דילוג ייחודיים לעמוד ספציפי זה, עליך להגדיר לכל מקטע את מזהה המקטע ותווית "
+"המתארת אותו."
+
+#: inc/meta.php:59
+msgid "For example:"
+msgstr "לדוגמה:"
+
+#: inc/meta.php:61
+msgid "Under \"Section ID\""
+msgstr "תחת ״מזהה המקטע״"
+
+#: inc/meta.php:62
+msgid "Under \"Skiplink Label\""
+msgstr "תחת ״תווית הקישור״"
+
+#: inc/meta.php:62
+msgid "Meet Our Team"
+msgstr "הצוות שלנו"
+
+#: inc/meta.php:68
+msgid "Section ID"
+msgstr "מזהה המקטע"
+
+#: inc/meta.php:69
+msgid "Skiplink Label"
+msgstr "תווית הקישור"
+
+#: inc/meta.php:77
+msgid "Drag this to reorder the skiplinks"
+msgstr "ניתן לגרור רכיב זה כדי לסדר מחדש את קישורי הדילוג"
+
+#: inc/meta.php:82
+msgid "Drag Icon"
+msgstr "אייקון גרירה"
+
+#: inc/meta.php:86 inc/meta.php:93 inc/meta.php:99
+msgid "Remove skiplink"
+msgstr "הסרת קישור"
+
+#: inc/meta.php:104
+msgid "Add another skiplink"
+msgstr "הוספת קישור דילוג חדש"
+
+#: inc/panel.php:22 inc/panel.php:241
+msgid "AccessibleWP Skiplinks"
+msgstr "‫AccessibleWP קישורי דילוג"
+
+#: inc/panel.php:49
+msgid "Welcome to <span>AccessibleWP</span> Dashboard!"
+msgstr "ברוכים הבאים אל לוח הבקרה של <span>AccessibleWP</span>!"
+
+#: inc/panel.php:50
+msgid "Accessibility solutions for websites based on the WordPress."
+msgstr "פתרונות הנגשה לאתרים מבוססי וורדפרס."
+
+#: inc/panel.php:52
+msgid "Toolbar Settings"
+msgstr "הגדרות סרגל נגישות"
+
+#: inc/panel.php:55
+msgid "Who We Are?"
+msgstr "מי אנחנו?"
+
+#: inc/panel.php:55
+msgid "About The Author"
+msgstr "אודות המפתח"
+
+#: inc/panel.php:55
+msgid "W3C Accessibility Standards Overview"
+msgstr "תקנות הנגישות"
+
+#: inc/panel.php:59
+msgid "Send Feedback"
+msgstr "שליחת משוב"
+
+#: inc/panel.php:72 inc/panel.php:248
+msgid "Options"
+msgstr "אפשרויות"
+
+#: inc/panel.php:75
+msgid "Activate the skiplinks"
+msgstr "הפעלת קישורי הדילוג"
+
+#: inc/panel.php:80
+msgid "Turn sides over"
+msgstr "הפוך את הצדדים"
+
+#: inc/panel.php:84
+msgid ""
+"The default state of the skiplinks is that in LTR mode they appear on the "
+"left side and in RTL mode they appear on the right side. If you check this "
+"checkbox, the skiplinks will be displayed on opposite sides."
+msgstr ""
+"ברירת המחדל של קישורי הדילוג זה להופיע בצד ימין במצב RTL ובצד שמאל במצב LTR. "
+"כדי להפוך את הצדדים יש לסמן צ׳קבוקס זה."
+
+#: inc/panel.php:94
+msgid "Header link label"
+msgstr "תווית הקישור עבור הכותרת העליונה"
+
+#: inc/panel.php:97
+msgid "Header"
+msgstr "כותרת עליונה"
+
+#: inc/panel.php:98
+msgid "Set the label of your header link."
+msgstr "הגדרת התווית עבור הקישור אל הכותרת העליונה."
+
+#: inc/panel.php:103
+msgid "Header link ID"
+msgstr "מזהה הכותרת העליונה"
+
+#: inc/panel.php:107
+msgid "Set the ID of your header HTML tag in a CSS format. For example:"
+msgstr "הגדרת ה-ID של הכותרת העליונה. למשל:"
+
+#: inc/panel.php:117
+msgid "Content link label"
+msgstr "תווית הקישור אל תחילת התוכן"
+
+#: inc/panel.php:120
+msgid "Page Content"
+msgstr "תוכן העמוד"
+
+#: inc/panel.php:121
+msgid "Set the label of your content link."
+msgstr "הגדרת התווית של הקישור אל תחילת התוכן."
+
+#: inc/panel.php:126
+msgid "Content ID"
+msgstr "מזהה תחילת התוכן"
+
+#: inc/panel.php:130
+msgid ""
+"Set the ID of the HTML tag of your main content area in a CSS format. For "
+"example:"
+msgstr "הגדרת ה-ID של תגית ה-HTML אשר פותחת את התוכן. לדוגמה:"
+
+#: inc/panel.php:140
+msgid "Footer link label"
+msgstr "תווית הקישור אל הכותרת התחתונה"
+
+#: inc/panel.php:143
+msgid "Footer"
+msgstr "כותרת תחתונה"
+
+#: inc/panel.php:144
+msgid "Set the label of your footer link."
+msgstr "הגדרת התווית בקישור אל הכותרת התחתונה."
+
+#: inc/panel.php:149
+msgid "Footer ID"
+msgstr "מזהה הכותרת התחתונה"
+
+#: inc/panel.php:153
+msgid "Set the ID of your footer HTML tag in a CSS format. For example:"
+msgstr "הגדרת ה-ID של תגית ה-HTML של הכותרת התחתונה. לדוגמה:"
+
+#: inc/panel.php:164 inc/panel.php:247
+msgid "How To Use?"
+msgstr "איך להשתמש?"
+
+#: inc/panel.php:165
+msgid "This screen describes what the skiplinks are and how to use them."
+msgstr "מסך זה מתאר מהם קישורי הדילוג וכיצד להשתמש בהם."
+
+#: inc/panel.php:167
+msgid "What are skiplinks?"
+msgstr "מהם קישורי דילוג?"
+
+#: inc/panel.php:168
+msgid ""
+"Skiplinks allow the user to skip between the page sections using the "
+"keyboard (usually using the TAB key). These skiplinks are not visible in the "
+"interface but are accessible via the keyboard and appear on the screen only "
+"when they are in focus mode."
+msgstr ""
+"קישורי דילוג מאפשרים למשתמש לדלג בין חלקי העמוד באמצעות המקלדת (בדרך כלל "
+"באמצעות מקש TAB). קישורי דילוג אלו אינם גלויים בממשק אך נגישים דרך המקלדת "
+"ומופיעים על המסך רק כאשר הם במצב פוקוס."
+
+#: inc/panel.php:169
+msgid "How to use the skiplinks?"
+msgstr "איך להשתמש בקישורי הדילוג?"
+
+#: inc/panel.php:170
+msgid ""
+"To activate the skiplinks properly there are several steps that need to be "
+"done"
+msgstr "כדי להפעיל את קישורי הדילוג כראוי יש כמה שלבים שצריך לעשות"
+
+#: inc/panel.php:172
+msgid ""
+"First, activate the skiplinks to appear on the front-end by checking the "
+"checkbox on the \"Options\" screen next to the label: \"Activate the "
+"skiplinks\"."
+msgstr ""
+"תחילה, יש להפעיל את קישורי הדילוג על ידי סימון הצ׳קבוקס במסך “אפשרויות” שלצד "
+"התווית: “הפעלת קישורי הדילוג”."
+
+#: inc/panel.php:173
+msgid ""
+"Now the permanent sections must be defined, those that appear on all your "
+"website pages (header, footer and page content). You can set this under the "
+"\"Options\" screen. Defining the skiplinks is done by setting the ID of that "
+"section and a very short description. For example if the ID of our header is "
+"'header' we will define the ID of the section like this: <b>header</b> "
+"(without the # at the beginning), and in the label field we can write "
+"\"Header\"."
+msgstr ""
+"כעת יש להגדיר את המקטעים הקבועים, אלו המופיעים בכל עמודי האתר שלך (כותרת "
+"עליונה, תחתונה ותחילת תוכן העמוד). ניתן להגדיר זאת תחת מסך “אפשרויות”. "
+"ההגדרה מתבצעת על ידי הזנת המזהה של אותו מקטע ותיאור קצר מאוד. למשל אם המזהה "
+"של הכותרת העליונה שלנו הוא ‘header’ נגדיר את המזהה של המקטע כך: <b>header</"
+"b> (ללא ה-# בהתחלה), ובשדה התווית נוכל לכתוב “ניווט ראשי” או ״כותרת עליונה״ "
+"(בהתאם למפרט הרכיב)."
+
+#: inc/panel.php:174
+msgid ""
+"Once the permanent sections have been defined, it is possible to define more "
+"skiplinks for each page to its own unique sections. These skiplinks will "
+"only appear on that specific page. You can do this through the meta box "
+"found on each page edit in the same way we defined the permanent skiplinks "
+"(section ID and label)."
+msgstr ""
+"לאחר הגדרת המקטעים הקבועים, ניתן להגדיר עוד קישורי דילוג ייחודיים לכל עמוד, "
+"שיופיעו רק בעמוד מסוים. ניתן לעשות זאת דרך תיבת המטא שנמצאת בכל עריכת עמוד "
+"באותו האופן שבו הגדרנו את הקישורים הקבועים (מזהה מקטע ותווית)."
+
+#: inc/panel.php:175
+msgid ""
+"You can check the skiplinks you created by navigating the page using the TAB "
+"button on your keyboard."
+msgstr ""
+"ניתן לבדוק את קישורי הדילוג שיצרת על ידי ניווט בעמוד באמצעות לחצן ה-TAB "
+"שבמקלדת שלך."
+
+#: inc/panel.php:184 inc/panel.php:249
+msgid "Style"
+msgstr "סגנון"
+
+#: inc/panel.php:188
+msgid "Disable skiplinks animation"
+msgstr "ביטול אנימציית הכניסה והיציאה"
+
+#: inc/panel.php:193
+msgid "Disable skiplinks shadows"
+msgstr "ביטול ההצללות"
+
+#: inc/panel.php:198
+msgid "Custom background color"
+msgstr "צבע רקע מותאם אישית"
+
+#: inc/panel.php:205
+msgid "Custom text color"
+msgstr "צבע טקסט מותאם אישית"
+
+#: inc/panel.php:219 inc/panel.php:250
+msgid "Settings"
+msgstr "הגדרות"
+
+#: inc/panel.php:224
+msgid "My theme support 'wp_body_open' (recommended)"
+msgstr ""
+"התבנית שלי תומכת בהוק ‘wp_body_open’ (<b>מומלץ</b>, עובד ברוב מערכות וורדפרס "
+"מגרסה 5.2 ומעלה)"
+
+#: inc/panel.php:229
+msgid "Disable additional skiplinks from page meta"
+msgstr "ביטול האפשרות להגדיר קישורי דילוג ייחודיים לכל עמוד בנפרד"

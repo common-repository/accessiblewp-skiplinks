@@ -1,0 +1,96 @@
+#acwp-skiplinks-fieldset {
+	text-align: left;
+}
+body.rtl #acwp-skiplinks-fieldset {
+	text-align: right;
+}
+
+#accessible-wp-toolbar .form-table .acwp-tr-heading{
+    background-color:#e5e5e5;
+    border-bottom: 10px solid #f0f0f1;
+}
+#accessible-wp-toolbar .form-table .acwp-tr-first th,#accessible-wp-toolbar .form-table .acwp-tr-first td{
+    padding-top:20px
+}
+#accessible-wp-toolbar .form-table .acwp-tr-last th,#accessible-wp-toolbar .form-table .acwp-tr-last td{
+    padding-bottom:20px
+}
+#accessible-wp-toolbar .form-table th{
+    font-weight:400;
+    padding:7px 10px 7px 10px
+}
+#accessible-wp-toolbar .form-table td{
+    padding: 2px 10px;
+}
+
+.welcome-panel-accessiblewp h1 {
+    font-size: 48px;
+    font-weight: 300;
+}
+.welcome-panel-accessiblewp h1 span {
+    font-weight: 600;
+}
+.welcome-panel-accessiblewp h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.welcome-panel-accessiblewp nav {
+    margin-bottom: 30px;
+}
+.welcome-panel-accessiblewp .welcome-panel-header p {
+    font-size: 16px;
+}
+.welcome-panel-accessiblewp .welcome-panel-header p.about-description {
+    font-size: 20px;
+}
+.welcome-panel-accessiblewp .welcome-panel-header {
+    display: flex;
+    padding: 48px;
+}
+.welcome-panel-accessiblewp .welcome-content {
+    flex-grow: 3;
+}
+.welcome-panel-accessiblewp .welcome-feedback {
+    flex-grow: 1    ;
+}
+
+#accessible-wp-toolbar h4{
+    font-size:16px;
+    margin:10px 0 0
+}
+#accessible-wp-toolbar ul.acwp-list{
+    list-style:disclosure-closed;
+    padding-left:20px
+}
+.acwp-tab{
+    display:none
+}
+.acwp-tab.active{
+    display:block
+}
+.acwp-hide-row{
+    display:none
+}
+
+.acwp-tab input[type="text"], .acwp-tab input[type="url"], .acwp-tab textarea {
+	min-height: 36px;
+	width: 320px;
+}
+.acwp-tab textarea {
+	min-height: 54px;
+}
+.acwp-tab .form-table td {
+	vertical-align: top;
+}
+
+.acwp-tab td p {
+	max-width: 320px;
+	font-size: 90%;
+	margin-bottom: 15px;
+}
+@media screen and (max-width: 768px){
+	.acwp-tab input[type="text"], .acwp-tab input[type="url"], .acwp-tab textarea {
+		width: auto;
+	}
+}
